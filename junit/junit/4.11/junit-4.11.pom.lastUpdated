@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu May 02 08:31:08 CAT 2019
+@default-snapshots-http\://artifactory.vodacom.co.za\:80/artifactory/libs-snapshot/.lastUpdated=1556778668557
+http\://artifactory.vodacom.co.za\:80/artifactory/libs-release/.error=Could not transfer artifact junit\:junit\:pom\:4.11 from/to central (http\://artifactory.vodacom.co.za\:80/artifactory/libs-release)\: Connect to artifactory.vodacom.co.za\:80 [artifactory.vodacom.co.za/41.192.255.101] failed\: Connection refused\: connect
+http\://artifactory.vodacom.co.za\:80/artifactory/libs-snapshot/.error=Could not transfer artifact junit\:junit\:pom\:4.11 from/to snapshots (http\://artifactory.vodacom.co.za\:80/artifactory/libs-snapshot)\: Connect to artifactory.vodacom.co.za\:80 [artifactory.vodacom.co.za/41.192.255.101] failed\: Connection refused\: connect
+@default-central-http\://artifactory.vodacom.co.za\:80/artifactory/libs-release/.lastUpdated=1556778667452

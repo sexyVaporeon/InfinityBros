@@ -1,1 +1,4 @@
 InfinityBros\App.class
+InfinityBros\models\Movie.class
+InfinityBros\models\User.class
+InfinityBros\models\UserMovies.class

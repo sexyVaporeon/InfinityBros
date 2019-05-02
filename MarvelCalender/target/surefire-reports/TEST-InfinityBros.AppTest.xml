@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="InfinityBros.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="InfinityBros.AppTest" time="0.09" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\bassonr01\Documents\GitHub\MarvelCalender\target\test-classes;C:\Users\bassonr01\Documents\GitHub\MarvelCalender\target\classes;C:\Users\bassonr01\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\bassonr01\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\bassonr01\Documents\GitHub\InfinityBros\MarvelCalender\target\test-classes;C:\Users\bassonr01\Documents\GitHub\InfinityBros\MarvelCalender\target\classes;C:\Users\bassonr01\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\bassonr01\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\BASSON~1\AppData\Local\Temp\surefire7155935208420456819\surefirebooter8156950951629910969.jar C:\Users\bassonr01\AppData\Local\Temp\surefire7155935208420456819 2019-04-23T14-49-19_674-jvmRun1 surefire4396633995365729873tmp surefire_05995571368033539515tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\bassonr01\Documents\GitHub\MarvelCalender\target\test-classes;C:\Users\bassonr01\Documents\GitHub\MarvelCalender\target\classes;C:\Users\bassonr01\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\bassonr01\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.java.command" value="C:\Users\BASSON~1\AppData\Local\Temp\surefire338149623562669678\surefirebooter4356040442888718344.jar C:\Users\bassonr01\AppData\Local\Temp\surefire338149623562669678 2019-05-02T08-31-14_601-jvmRun1 surefire4388857788500370426tmp surefire_07799342059635714971tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\bassonr01\Documents\GitHub\InfinityBros\MarvelCalender\target\test-classes;C:\Users\bassonr01\Documents\GitHub\InfinityBros\MarvelCalender\target\classes;C:\Users\bassonr01\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\bassonr01\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\bassonr01"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="basedir" value="C:\Users\bassonr01\Documents\GitHub\MarvelCalender"/>
+    <property name="basedir" value="C:\Users\bassonr01\Documents\GitHub\InfinityBros\MarvelCalender"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\BASSON~1\AppData\Local\Temp\surefire7155935208420456819\surefirebooter8156950951629910969.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\BASSON~1\AppData\Local\Temp\surefire338149623562669678\surefirebooter4356040442888718344.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\BASSON~1\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_201"/>
-    <property name="user.dir" value="C:\Users\bassonr01\Documents\GitHub\MarvelCalender"/>
+    <property name="user.dir" value="C:\Users\bassonr01\Documents\GitHub\InfinityBros\MarvelCalender"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="InfinityBros.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="InfinityBros.AppTest" time="0.004"/>
 </testsuite>
