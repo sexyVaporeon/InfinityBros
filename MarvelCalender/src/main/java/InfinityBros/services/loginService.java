@@ -5,9 +5,14 @@ import InfinityBros.models.User;
 import javax.lang.model.util.ElementScanner7;
 
 public class loginService {
-    sqlService sql = new sqlService();
+    public loginService() {
+        this.sql=new sqlService();
+    }
 
-    public boolean createUser(String email,String password){
+
+    private sqlService sql;
+
+    public boolean createUser(String email, String password){
         boolean res = false;
         User user = new User(email,password);
         try {
@@ -21,12 +26,14 @@ public class loginService {
         }
     }
 
-    public boolean login(String email,String password){
+    public User login(String email,String password){
         User user = null;
         try {
             user = sqlService.findUser(email,password);
         } catch(Exception e){}
-        return true;
+        finally {
+            return user;
+        }
     }
 
     
